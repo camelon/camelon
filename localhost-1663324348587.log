@@ -1,0 +1,1261 @@
+Debug.js:178 [2020][DashParser] Parsing complete: (parsing: 31.0ms, objectiron: 0.600ms, total: 0.0316s)
+Debug.js:178 [2021][StreamController] Manifest updated... updating data system wide.
+Debug.js:178 [2024][ManifestUpdater] Manifest has been refreshed at Fri Sep 16 2022 12:29:49 GMT+0200 (Central European Summer Time)[1663324189.278]
+Debug.js:178 [2030][GapController] Starting the gap controller
+Debug.js:178 [2030][StreamController] Switch to stream preroll/1. Seektime is 0, current playback time is null. Seamless period switch is set to false
+Debug.js:178 [2031][StreamController] MediaSource attached to element.  Waiting on open...
+Debug.js:178 [2033][PlaybackController] Native video element event: play
+Debug.js:178 [2033][StreamController] [onPlaybackStarted]
+Debug.js:178 [2033][PlaybackController] Native video element event: waiting
+Debug.js:178 [2033][StreamController] MediaSource is open!
+Debug.js:178 [2033][MediaSourceController] Set MediaSource duration:521.304118038
+Debug.js:178 [2037][Stream] No text data.
+Debug.js:178 [2037][Stream] No muxed data.
+Debug.js:178 [2037][Stream] No image data.
+Debug.js:178 [2037][SourceBufferSink][video] Updated append window for video. Set start to 0 and end to 30.073365936000002
+Debug.js:178 [2038][SourceBufferSink][audio] Updated append window for audio. Set start to 0 and end to 30.073365936000002
+Debug.js:178 [2038][AbrController] Stream ID: preroll/1 [video] switch from 0 to 2/5 (buffer: 0) .
+Debug.js:178 [2038][StreamProcessor][video] Preparing quality switch for type video
+Debug.js:178 [2038][FragmentModel][video] abort requests
+Debug.js:178 [2040][ScheduleController][video] Quality has changed, get init request for representationid = 0
+Debug.js:178 [2041][ScheduleController][audio] Quality has changed, get init request for representationid = 1
+Debug.js:178 [2046][BufferController][audio] Append Init fragment audio  with representationId: 1  and quality: 0 , data size: 822
+Debug.js:178 [2046][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/init.mp4
+Debug.js:178 [2046][BufferController][video] Append Init fragment video  with representationId: 0  and quality: 2 , data size: 861
+Debug.js:178 [2046][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_432p_main/init.mp4
+Debug.js:178 [2047][ScheduleController][audio] Appended bytes for audio and stream id preroll/1
+Debug.js:178 [2047][ScheduleController][audio] [audio] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [2047][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2047][ScheduleController][video] [video] lastInitializedRepresentationInfo changed to 2
+Debug.js:178 [2048][ScheduleController][audio] Top quality audio index has changed from NaN to 0
+Debug.js:178 [2048][ScheduleController][audio] Media segment needed for audio and stream id preroll/1
+Debug.js:178 [2048][DashHandler][audio] Index for time 0 is 0
+Debug.js:178 [2049][StreamProcessor][audio] Next fragment request url for stream id preroll/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/1.m4s
+Debug.js:178 [2049][ScheduleController][video] Top quality video index has changed from NaN to 5
+Debug.js:178 [2049][ScheduleController][video] Media segment needed for video and stream id preroll/1
+Debug.js:178 [2049][DashHandler][video] Index for time 0 is 0
+Debug.js:178 [2049][StreamProcessor][video] Next fragment request url for stream id preroll/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_432p_main/1.m4s
+Debug.js:178 [2050][PlaybackController] Native video element event: loadedmetadata
+Debug.js:178 [2053][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/1.m4s
+Debug.js:178 [2053][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_432p_main/1.m4s
+Debug.js:178 [2054][BufferController][audio] Got enough buffer to start
+Debug.js:178 [2054][BufferController][audio] Buffered range: 0 - 6.015999, currentTime =  0
+Debug.js:178 [2055][ScheduleController][audio] Appended bytes for audio and stream id preroll/1
+Debug.js:178 [2055][BufferController][video] Got enough buffer to start
+Debug.js:178 [2055][BufferController][video] Buffered range: 0 - 6.005999, currentTime =  0
+Debug.js:178 [2055][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2055][AbrController] Stream ID: preroll/1 [video] switch from 2 to 5/5 (buffer: 6.006) {"throughput":795591,"latency":1}
+Debug.js:178 [2055][StreamProcessor][video] Preparing quality switch for type video
+Debug.js:178 [2055][FragmentModel][video] abort requests
+Debug.js:178 [2056][ScheduleController][video] Quality has changed, get init request for representationid = 5
+Debug.js:178 [2059][BufferController][video] Append Init fragment video  with representationId: 5  and quality: 5 , data size: 869
+Debug.js:178 [2059][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/init.mp4
+Debug.js:178 [2059][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2059][ScheduleController][video] [video] lastInitializedRepresentationInfo changed to 5
+Debug.js:178 [2060][ScheduleController][video] Media segment needed for video and stream id preroll/1
+Debug.js:178 [2060][DashHandler][video] Index for time 6.005999 is 0
+Debug.js:178 [2060][StreamProcessor][video] Next fragment request url for stream id preroll/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [2068][PlaybackController] Native video element event: loadeddata
+Debug.js:178 [2086][PlaybackController] Native video element event: playing
+Debug.js:178 [2089][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [2097][BufferController][video] Buffered range: 0 - 6.005999, currentTime =  0.01591
+Debug.js:178 [2098][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2098][ScheduleController][video] Media segment needed for video and stream id preroll/1
+Debug.js:178 [2098][StreamProcessor][video] Next fragment request url for stream id preroll/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [2111][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [2118][BufferController][video] Buffered range: 0 - 12.011999, currentTime =  0.016431
+Debug.js:178 [2118][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2118][ScheduleController][video] Media segment needed for video and stream id preroll/1
+Debug.js:178 [2118][StreamProcessor][video] Next fragment request url for stream id preroll/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [2130][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [2136][BufferController][video] Buffered range: 0 - 18.017999, currentTime =  0.020788
+Debug.js:178 [2136][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2136][ScheduleController][video] Media segment needed for video and stream id preroll/1
+Debug.js:178 [2136][StreamProcessor][video] Next fragment request url for stream id preroll/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [2149][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [2155][AbrController] [video] switching from throughput to buffer occupancy ABR rule (buffer: 24.003).
+Debug.js:178 [2155][BufferController][video] Buffered range: 0 - 24.023999, currentTime =  0.020788
+Debug.js:178 [2155][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2156][ScheduleController][video] Media segment needed for video and stream id preroll/1
+Debug.js:178 [2156][StreamProcessor][video] Next fragment request url for stream id preroll/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [2168][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [2173][BufferController][video] Buffered range: 0 - 30.029999, currentTime =  0.035844
+Debug.js:178 [2173][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2173][ScheduleController][video] Media segment needed for video and stream id preroll/1
+Debug.js:178 [2173][StreamProcessor][video] Next fragment request url for stream id preroll/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/6.m4s
+Debug.js:178 [2176][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_1080p_high/6.m4s
+Debug.js:178 [2177][Stream] onBufferingCompleted - One streamProcessor has finished but audio one is not buffering completed
+Debug.js:178 [2177][BufferController][video] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id preroll/1 and type video
+Debug.js:178 [2177][BufferController][video] Buffered range: 0 - 30.063366, currentTime =  0.03953
+Debug.js:178 [2177][ScheduleController][video] Appended bytes for video and stream id preroll/1
+Debug.js:178 [2319][GapController] CML: [_onBufferReplacementEnded] Ended track 'video'
+Debug.js:178 [2319][ScheduleController][video] Quality change rendered for streamId preroll/1 and type video
+Debug.js:178 [2319][GapController] CML: [_onBufferReplacementEnded] Ended track 'audio'
+Debug.js:178 [2319][ScheduleController][audio] Quality change rendered for streamId preroll/1 and type audio
+Debug.js:178 [2556][ScheduleController][audio] Media segment needed for audio and stream id preroll/1
+Debug.js:178 [2556][StreamProcessor][audio] Next fragment request url for stream id preroll/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/2.m4s
+Debug.js:178 [2565][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/2.m4s
+Debug.js:178 [2565][BufferController][audio] Buffered range: 0 - 12.010666, currentTime =  0.428735
+Debug.js:178 [2565][ScheduleController][audio] Appended bytes for audio and stream id preroll/1
+Debug.js:178 [2566][ScheduleController][audio] Media segment needed for audio and stream id preroll/1
+Debug.js:178 [2566][StreamProcessor][audio] Next fragment request url for stream id preroll/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/3.m4s
+Debug.js:178 [2571][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/3.m4s
+Debug.js:178 [2571][BufferController][audio] Buffered range: 0 - 18.005333, currentTime =  0.434424
+Debug.js:178 [2571][ScheduleController][audio] Appended bytes for audio and stream id preroll/1
+Debug.js:178 [2571][ScheduleController][audio] Media segment needed for audio and stream id preroll/1
+Debug.js:178 [2571][StreamProcessor][audio] Next fragment request url for stream id preroll/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/4.m4s
+Debug.js:178 [2575][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/4.m4s
+Debug.js:178 [2576][AbrController] [audio] switching from throughput to buffer occupancy ABR rule (buffer: 23.561).
+Debug.js:178 [2576][BufferController][audio] Buffered range: 0 - 23.999999, currentTime =  0.439204
+Debug.js:178 [2576][ScheduleController][audio] Appended bytes for audio and stream id preroll/1
+Debug.js:178 [2576][ScheduleController][audio] Media segment needed for audio and stream id preroll/1
+Debug.js:178 [2576][StreamProcessor][audio] Next fragment request url for stream id preroll/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/5.m4s
+Debug.js:178 [2580][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/mpeg4_audio/5.m4s
+Debug.js:178 [2581][BufferController][audio] Buffered range: 0 - 30.003999, currentTime =  0.443936
+Debug.js:178 [2581][ScheduleController][audio] Appended bytes for audio and stream id preroll/1
+Debug.js:178 [2581][ScheduleController][audio] Media segment needed for audio and stream id preroll/1
+Debug.js:178 [2581][StreamProcessor][audio] Segment requesting for stream preroll/1 has finished
+Debug.js:178 [2581][Stream] onBufferingCompleted - trigger STREAM_BUFFERING_COMPLETED
+Debug.js:178 [2581][StreamController] Stream with id preroll/1 finished buffering
+Debug.js:178 [2581][Stream] [startPreloading] Preloading next stream with id preroll/2
+Debug.js:178 [2582][Stream] No text data.
+Debug.js:178 [2583][Stream] No muxed data.
+Debug.js:178 [2583][Stream] No image data.
+Debug.js:178 [2583][SourceBufferSink][video] Updated append window for video. Set start to 29.963365936 and end to 59.903165588
+Debug.js:178 [2583][SourceBufferSink][video] Set MSE timestamp offset to 30.063365936
+Debug.js:178 [2583][SourceBufferSink][audio] Updated append window for audio. Set start to 29.963365936 and end to 59.903165588
+Debug.js:178 [2583][SourceBufferSink][audio] Set MSE timestamp offset to 30.063365936
+Debug.js:178 [2584][BufferController][audio] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id preroll/1 and type audio
+Debug.js:178 [2584][AbrController] Stream ID: preroll/2 [video] switch from 0 to 5/5 (buffer: 29.623) .
+Debug.js:178 [2584][StreamProcessor][video] Preparing quality switch for type video
+Debug.js:178 [2584][FragmentModel][video] abort requests
+Debug.js:178 [2585][ScheduleController][video] Quality has changed, get init request for representationid = 0
+Debug.js:178 [2585][ScheduleController][audio] Quality has changed, get init request for representationid = 6
+Debug.js:178 [2588][BufferController][video] Append Init fragment video  with representationId: 0  and quality: 5 , data size: 869
+Debug.js:178 [2588][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/init.mp4
+Debug.js:178 [2589][BufferController][audio] Append Init fragment audio  with representationId: 6  and quality: 0 , data size: 822
+Debug.js:178 [2589][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/init.mp4
+Debug.js:178 [2589][BufferController][video] Got enough buffer to start
+Debug.js:178 [2589][ScheduleController][video] Appended bytes for video and stream id preroll/2
+Debug.js:178 [2589][ScheduleController][video] [video] lastInitializedRepresentationInfo changed to 5
+Debug.js:178 [2589][BufferController][audio] Got enough buffer to start
+Debug.js:178 [2589][ScheduleController][audio] Appended bytes for audio and stream id preroll/2
+Debug.js:178 [2589][ScheduleController][audio] [audio] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [2589][ScheduleController][video] Top quality video index has changed from NaN to 5
+Debug.js:178 [2589][ScheduleController][video] Media segment needed for video and stream id preroll/2
+Debug.js:178 [2589][DashHandler][video] Index for time 30.063365936 is 0
+Debug.js:178 [2589][StreamProcessor][video] Next fragment request url for stream id preroll/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [2590][ScheduleController][audio] Top quality audio index has changed from NaN to 0
+Debug.js:178 [2590][ScheduleController][audio] Media segment needed for audio and stream id preroll/2
+Debug.js:178 [2590][DashHandler][audio] Index for time 30.063365936 is 0
+Debug.js:178 [2590][StreamProcessor][audio] Next fragment request url for stream id preroll/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/1.m4s
+Debug.js:178 [2593][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/1.m4s
+Debug.js:178 [2594][BufferController][audio] Buffered range: 0 - 30.003999, currentTime =  0.456195
+Debug.js:178 [2594][BufferController][audio] Buffered range: 30.042032 - 36.079364, currentTime =  0.456195
+Debug.js:178 [2594][ScheduleController][audio] Appended bytes for audio and stream id preroll/2
+Debug.js:178 [2601][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [2609][BufferController][video] Buffered range: 0 - 36.069364, currentTime =  0.472157
+Debug.js:178 [2609][ScheduleController][video] Appended bytes for video and stream id preroll/2
+Debug.js:178 [3094][ScheduleController][audio] Media segment needed for audio and stream id preroll/2
+Debug.js:178 [3094][StreamProcessor][audio] Next fragment request url for stream id preroll/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/2.m4s
+Debug.js:178 [3100][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/2.m4s
+Debug.js:178 [3101][BufferController][audio] Buffered range: 0 - 30.003999, currentTime =  0.964223
+Debug.js:178 [3101][BufferController][audio] Buffered range: 30.042032 - 42.074031, currentTime =  0.964223
+Debug.js:178 [3101][ScheduleController][audio] Appended bytes for audio and stream id preroll/2
+Debug.js:178 [8623][ScheduleController][video] Media segment needed for video and stream id preroll/2
+Debug.js:178 [8623][StreamProcessor][video] Next fragment request url for stream id preroll/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [8645][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [8654][BufferController][video] Buffered range: 0 - 42.075364, currentTime =  6.517167
+Debug.js:178 [8655][ScheduleController][video] Appended bytes for video and stream id preroll/2
+Debug.js:178 [9125][ScheduleController][audio] Media segment needed for audio and stream id preroll/2
+Debug.js:178 [9126][StreamProcessor][audio] Next fragment request url for stream id preroll/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/3.m4s
+Debug.js:178 [9136][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/3.m4s
+Debug.js:178 [9137][BufferController][audio] Buffered range: 0 - 30.003999, currentTime =  6.999811
+Debug.js:178 [9137][BufferController][audio] Buffered range: 30.042032 - 48.068698, currentTime =  6.999811
+Debug.js:178 [9137][ScheduleController][audio] Appended bytes for audio and stream id preroll/2
+Debug.js:178 [14682][ScheduleController][video] Media segment needed for video and stream id preroll/2
+Debug.js:178 [14683][StreamProcessor][video] Next fragment request url for stream id preroll/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [14701][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [14711][BufferController][video] Buffered range: 0 - 48.081364, currentTime =  12.574093
+Debug.js:178 [14711][ScheduleController][video] Appended bytes for video and stream id preroll/2
+Debug.js:178 [15145][ScheduleController][audio] Media segment needed for audio and stream id preroll/2
+Debug.js:178 [15146][StreamProcessor][audio] Next fragment request url for stream id preroll/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/4.m4s
+Debug.js:178 [15154][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/4.m4s
+Debug.js:178 [15154][BufferController][audio] Buffered range: 0 - 30.003999, currentTime =  13.017135
+Debug.js:178 [15154][BufferController][audio] Buffered range: 30.042032 - 54.063364, currentTime =  13.017135
+Debug.js:178 [15155][ScheduleController][audio] Appended bytes for audio and stream id preroll/2
+Debug.js:178 [20726][ScheduleController][video] Media segment needed for video and stream id preroll/2
+Debug.js:178 [20726][StreamProcessor][video] Next fragment request url for stream id preroll/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [20743][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [20753][BufferController][video] Buffered range: 0 - 54.087364, currentTime =  18.616401
+Debug.js:178 [20753][ScheduleController][video] Appended bytes for video and stream id preroll/2
+Debug.js:178 [21186][ScheduleController][audio] Media segment needed for audio and stream id preroll/2
+Debug.js:178 [21186][StreamProcessor][audio] Next fragment request url for stream id preroll/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/5.m4s
+Debug.js:178 [21191][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id preroll/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_audio/5.m4s
+Debug.js:178 [21191][BufferController][audio] Buffered range: 0 - 30.003999, currentTime =  19.054328
+Debug.js:178 [21191][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  19.054328
+Debug.js:178 [21191][ScheduleController][audio] Appended bytes for audio and stream id preroll/2
+Debug.js:178 [22534][BufferController][video] video: Removing buffer from: 0 to 0.3971990000000005
+Debug.js:178 [22534][BufferController][audio] audio: Removing buffer from: 0 to 0.3971990000000005
+Debug.js:178 [22536][BufferController][video] onRemoved buffer from: 0 to 0.3971990000000005
+Debug.js:178 [22536][BufferController][video] Buffered range: 2.002 - 54.087364, currentTime =  20.399987
+Debug.js:178 [22536][BufferController][audio] onRemoved buffer from: 0 to 0.3971990000000005
+Debug.js:178 [22536][BufferController][audio] Buffered range: 0.405333 - 30.003999, currentTime =  20.400266
+Debug.js:178 [22536][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  20.400266
+Debug.js:178 [26788][ScheduleController][video] Media segment needed for video and stream id preroll/2
+Debug.js:178 [26789][StreamProcessor][video] Next fragment request url for stream id preroll/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [26803][StreamProcessor][video] OnFragmentLoadingCompleted for stream id preroll/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [26809][Stream] onBufferingCompleted - One streamProcessor has finished but audio one is not buffering completed
+Debug.js:178 [26809][BufferController][video] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id preroll/2 and type video
+Debug.js:178 [26809][BufferController][video] Buffered range: 2.002 - 59.893164, currentTime =  24.672761
+Debug.js:178 [26809][ScheduleController][video] Appended bytes for video and stream id preroll/2
+Debug.js:178 [27228][ScheduleController][audio] Media segment needed for audio and stream id preroll/2
+Debug.js:178 [27228][StreamProcessor][audio] Segment requesting for stream preroll/2 has finished
+Debug.js:178 [27229][Stream] onBufferingCompleted - trigger STREAM_BUFFERING_COMPLETED
+Debug.js:178 [27229][StreamController] Stream with id preroll/2 finished buffering
+Debug.js:178 [27229][Stream] [startPreloading] Preloading next stream with id 0
+Debug.js:178 [27234][Stream] No muxed data.
+Debug.js:178 [27234][Stream] No image data.
+Debug.js:178 [27234][SourceBufferSink][video] Updated append window for video. Set start to 59.793165588 and end to 61.905165588
+Debug.js:178 [27235][SourceBufferSink][video] Set MSE timestamp offset to 59.893165588
+Debug.js:178 [27235][SourceBufferSink][audio] Updated append window for audio. Set start to 59.793165588 and end to 61.905165588
+Debug.js:178 [27235][SourceBufferSink][audio] Set MSE timestamp offset to 59.893165588
+Debug.js:178 [27236][BufferController][audio] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id preroll/2 and type audio
+Debug.js:178 [27236][SourceBufferSink][text] Set MSE timestamp offset to 59.893165588
+Debug.js:178 [27236][AbrController] Stream ID: 0 [video] switch from 0 to 5/5 (buffer: 35.012) .
+Debug.js:178 [27236][StreamProcessor][video] Preparing quality switch for type video
+Debug.js:178 [27236][FragmentModel][video] abort requests
+Debug.js:178 [27242][ScheduleController][video] Quality has changed, get init request for representationid = 6
+Debug.js:178 [27243][ScheduleController][audio] Quality has changed, get init request for representationid = 8
+Debug.js:178 [27244][ScheduleController][text] Quality has changed, get init request for representationid = 2
+Debug.js:178 [27248][BufferController][video] Append Init fragment video  with representationId: 6  and quality: 5 , data size: 864
+Debug.js:178 [27249][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 0 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/mpeg4_1080p_high/init.mp4
+Debug.js:178 [27249][BufferController][audio] Append Init fragment audio  with representationId: 8  and quality: 0 , data size: 822
+Debug.js:178 [27249][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 0 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/mpeg4_audio/init.mp4
+Debug.js:178 [27250][BufferController][text] Append Init fragment text  with representationId: 2  and quality: 0 , data size: 727
+Debug.js:178 [27251][StreamProcessor][text] OnFragmentLoadingCompleted for stream id 0 and media type text - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/webvtt_1/init.mp4
+Debug.js:178 [27251][ScheduleController][text] Appended bytes for text and stream id 0
+Debug.js:178 [27252][ScheduleController][text] [text] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [27252][BufferController][video] Got enough buffer to start
+Debug.js:178 [27252][ScheduleController][video] Appended bytes for video and stream id 0
+Debug.js:178 [27252][ScheduleController][video] [video] lastInitializedRepresentationInfo changed to 5
+Debug.js:178 [27252][ScheduleController][text] Top quality text index has changed from NaN to 0
+Debug.js:178 [27252][ScheduleController][text] Media segment needed for text and stream id 0
+Debug.js:178 [27252][DashHandler][text] Index for time 59.893165588 is 0
+Debug.js:178 [27252][StreamProcessor][text] Next fragment request url for stream id 0 and media type text is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/webvtt_1/1.m4s
+Debug.js:178 [27253][BufferController][audio] Got enough buffer to start
+Debug.js:178 [27253][ScheduleController][audio] Appended bytes for audio and stream id 0
+Debug.js:178 [27253][ScheduleController][audio] [audio] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [27253][ScheduleController][video] Top quality video index has changed from NaN to 5
+Debug.js:178 [27253][ScheduleController][video] Media segment needed for video and stream id 0
+Debug.js:178 [27253][DashHandler][video] Index for time 59.893165588 is 0
+Debug.js:178 [27254][StreamProcessor][video] Next fragment request url for stream id 0 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [27254][ScheduleController][audio] Top quality audio index has changed from NaN to 0
+Debug.js:178 [27254][ScheduleController][audio] Media segment needed for audio and stream id 0
+Debug.js:178 [27254][DashHandler][audio] Index for time 59.893165588 is 0
+Debug.js:178 [27254][StreamProcessor][audio] Next fragment request url for stream id 0 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/mpeg4_audio/1.m4s
+Debug.js:178 [27258][TextSourceBuffer] VTT box1: vtte
+Debug.js:178 [27258][StreamProcessor][text] OnFragmentLoadingCompleted for stream id 0 and media type text - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/webvtt_1/1.m4s
+Debug.js:178 [27258][BufferController][text] Buffered range: 59.893165588 - 61.894165588, currentTime =  25.121523
+Debug.js:178 [27258][ScheduleController][text] Appended bytes for text and stream id 0
+Debug.js:178 [27259][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 0 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/mpeg4_audio/1.m4s
+Debug.js:178 [27259][ScheduleController][text] Media segment needed for text and stream id 0
+Debug.js:178 [27259][StreamProcessor][text] Segment requesting for stream 0 has finished
+Debug.js:178 [27259][Stream] onBufferingCompleted - One streamProcessor has finished but video one is not buffering completed
+Debug.js:178 [27259][BufferController][text] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id 0 and type text
+Debug.js:178 [27260][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 0 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [27260][Stream] onBufferingCompleted - One streamProcessor has finished but video one is not buffering completed
+Debug.js:178 [27260][BufferController][audio] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id 0 and type audio
+Debug.js:178 [27260][BufferController][audio] Buffered range: 0.405333 - 30.003999, currentTime =  25.123103
+Debug.js:178 [27260][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  25.123103
+Debug.js:178 [27260][BufferController][audio] Buffered range: 59.871832 - 61.898498, currentTime =  25.123103
+Debug.js:178 [27260][ScheduleController][audio] Appended bytes for audio and stream id 0
+Debug.js:178 [27261][Stream] onBufferingCompleted - trigger STREAM_BUFFERING_COMPLETED
+Debug.js:178 [27261][StreamController] Stream with id 0 finished buffering
+Debug.js:178 [27261][Stream] [startPreloading] Preloading next stream with id 1/1
+Debug.js:178 [27263][Stream] No text data.
+Debug.js:178 [27263][Stream] No muxed data.
+Debug.js:178 [27263][Stream] No image data.
+Debug.js:178 [27263][SourceBufferSink][video] Updated append window for video. Set start to 61.795165587999996 and end to 121.931799804
+Debug.js:178 [27263][SourceBufferSink][video] Set MSE timestamp offset to 61.895165588
+Debug.js:178 [27263][SourceBufferSink][audio] Updated append window for audio. Set start to 61.795165587999996 and end to 121.931799804
+Debug.js:178 [27263][SourceBufferSink][audio] Set MSE timestamp offset to 61.895165588
+Debug.js:178 [27264][BufferController][video] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id 0 and type video
+Debug.js:178 [27264][BufferController][video] Buffered range: 2.002 - 61.895164, currentTime =  25.123408
+Debug.js:178 [27264][ScheduleController][video] Appended bytes for video and stream id 0
+Debug.js:178 [27264][AbrController] Stream ID: 1/1 [video] switch from 0 to 5/5 (buffer: 36.772) .
+Debug.js:178 [27264][StreamProcessor][video] Preparing quality switch for type video
+Debug.js:178 [27264][FragmentModel][video] abort requests
+Debug.js:178 [27265][ScheduleController][video] Quality has changed, get init request for representationid = 5
+Debug.js:178 [27265][ScheduleController][audio] Quality has changed, get init request for representationid = 2
+Debug.js:178 [27271][BufferController][video] Append Init fragment video  with representationId: 5  and quality: 5 , data size: 869
+Debug.js:178 [27271][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/init.mp4
+Debug.js:178 [27271][BufferController][audio] Append Init fragment audio  with representationId: 2  and quality: 0 , data size: 822
+Debug.js:178 [27271][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/init.mp4
+Debug.js:178 [27272][BufferController][video] Got enough buffer to start
+Debug.js:178 [27272][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [27272][ScheduleController][video] [video] lastInitializedRepresentationInfo changed to 5
+Debug.js:178 [27272][BufferController][audio] Got enough buffer to start
+Debug.js:178 [27272][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [27272][ScheduleController][audio] [audio] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [27272][ScheduleController][video] Top quality video index has changed from NaN to 5
+Debug.js:178 [27272][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [27272][DashHandler][video] Index for time 61.895165588 is 0
+Debug.js:178 [27272][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [27273][ScheduleController][audio] Top quality audio index has changed from NaN to 0
+Debug.js:178 [27273][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [27273][DashHandler][audio] Index for time 61.895165588 is 0
+Debug.js:178 [27273][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/1.m4s
+Debug.js:178 [27276][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/1.m4s
+Debug.js:178 [27276][BufferController][audio] Buffered range: 0.405333 - 30.003999, currentTime =  25.139909
+Debug.js:178 [27276][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  25.139909
+Debug.js:178 [27276][BufferController][audio] Buffered range: 59.871832 - 67.911164, currentTime =  25.139909
+Debug.js:178 [27276][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [27281][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [27291][BufferController][video] Buffered range: 2.002 - 67.901164, currentTime =  25.154692
+Debug.js:178 [27291][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [27784][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [27784][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/2.m4s
+Debug.js:178 [27789][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/2.m4s
+Debug.js:178 [27789][BufferController][audio] Buffered range: 0.405333 - 30.003999, currentTime =  25.651925
+Debug.js:178 [27789][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  25.651925
+Debug.js:178 [27789][BufferController][audio] Buffered range: 59.871832 - 73.905831, currentTime =  25.651925
+Debug.js:178 [27789][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [31940][PlaybackController] Requesting seek to time: 30.142032 (internal)
+Debug.js:178 [31941][GapController] Jumping gap occuring in period preroll/1 starting at 30.003999 and ending at 30.142032. Jumping by: 0.13803300000000007
+doLog @ Debug.js:178
+warn @ Debug.js:141
+(anonymous) @ GapController.js:377
+setTimeout (async)
+_jumpGap @ GapController.js:375
+(anonymous) @ GapController.js:290
+setInterval (async)
+_startGapHandler @ GapController.js:285
+_onInitialStreamSwitch @ GapController.js:167
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+_initializeForFirstStream @ StreamController.js:361
+(anonymous) @ StreamController.js:255
+Promise.then (async)
+_composeStreams @ StreamController.js:252
+_onTimeSyncCompleted @ StreamController.js:208
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+attemptSync @ TimeSyncController.js:159
+(anonymous) @ StreamController.js:1266
+Promise.then (async)
+_onManifestUpdated @ StreamController.js:1263
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+update @ ManifestUpdater.js:222
+onManifestLoaded @ ManifestUpdater.js:243
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+onXlinkReady @ ManifestLoader.js:90
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+onXlinkAllElementsLoaded @ XlinkController.js:186
+resolve @ XlinkController.js:121
+onXlinkAllElementsLoaded @ XlinkController.js:182
+resolve @ XlinkController.js:121
+resolveManifestOnLoad @ XlinkController.js:96
+success @ ManifestLoader.js:214
+onload @ HTTPLoader.js:228
+load (async)
+load @ XHRLoader.js:84
+internalLoad @ HTTPLoader.js:310
+load @ HTTPLoader.js:356
+load @ URLLoader.js:67
+load @ ManifestLoader.js:114
+load @ StreamController.js:189
+_initializePlayback @ MediaPlayer.js:2292
+attachSource @ MediaPlayer.js:1827
+Html5DashJS @ videojs-dash.es.js:900
+handleSource @ videojs-dash.es.js:1058
+_Tech.setSource @ video.es.js:9908
+Html5 @ video.es.js:19966
+loadTech_ @ video.es.js:23188
+src_ @ video.es.js:25628
+(anonymous) @ video.es.js:25533
+setSourceHelper @ video.es.js:10274
+setSourceHelper @ video.es.js:10276
+(anonymous) @ video.es.js:10014
+(anonymous) @ video.es.js:5154
+setTimeout (async)
+setTimeout @ video.es.js:5149
+setSource @ video.es.js:10013
+handleSrc_ @ video.es.js:25523
+src @ video.es.js:25599
+(anonymous) @ VideojsNitroxPlayer.ts:236
+(anonymous) @ VideojsNitroxPlayer.ts:233
+pendingTask @ Async.ts:358
+runPendingTask @ Async.ts:350
+enqueue @ Async.ts:375
+setSource @ VideojsNitroxPlayer.ts:251
+create$ @ WebPlayerModule.ts:96
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+create @ WebPlayerModule.ts:96
+startPlayback$ @ WebPlayerModule.ts:530
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+startPlayback @ WebPlayerModule.ts:530
+setParameters$ @ WebPlayerModule.ts:407
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+setParameters @ WebPlayerModule.ts:407
+(anonymous) @ PlaybackController.ts:788
+Promise.then (async)
+setPlayerModuleParameters$ @ PlaybackController.ts:778
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+setPlayerModuleParameters @ PlaybackController.ts:778
+(anonymous) @ PlaybackController.ts:775
+Promise.then (async)
+setParameters @ PlaybackController.ts:773
+startPlayback$ @ PlaybackController.ts:410
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+startPlayback @ PlaybackController.ts:410
+startPlayback @ BookmarkedPlayer.ts:63
+_callee6$ @ PlaybackController.ts:274
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee6 @ PlaybackController.ts:274
+_callee2$ @ Async.ts:609
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee2 @ Async.ts:579
+_callee3$ @ Async.ts:579
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee3 @ Async.ts:579
+(anonymous) @ Async.ts:579
+(anonymous) @ Async.ts:488
+r @ Async.ts:479
+initialize @ PlaybackController.ts:184
+_callee2$ @ Player.ts:169
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee2 @ Player.ts:169
+_callee2$ @ Async.ts:609
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee2 @ Async.ts:579
+_callee3$ @ Async.ts:579
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee3 @ Async.ts:579
+(anonymous) @ Async.ts:579
+(anonymous) @ Async.ts:488
+r @ Async.ts:479
+Player._this.start @ Player.ts:149
+(anonymous) @ MediaPlayer.tsx:227
+(anonymous) @ useFunction.ts:17
+(anonymous) @ MediaPlayer.tsx:248
+(anonymous) @ useFunction.ts:17
+invokePassiveEffectCreate @ react-dom.development.js:23487
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+flushPassiveEffectsImpl @ react-dom.development.js:23574
+unstable_runWithPriority @ scheduler.development.js:468
+runWithPriority$1 @ react-dom.development.js:11276
+flushPassiveEffects @ react-dom.development.js:23447
+performSyncWorkOnRoot @ react-dom.development.js:22269
+(anonymous) @ react-dom.development.js:11327
+unstable_runWithPriority @ scheduler.development.js:468
+runWithPriority$1 @ react-dom.development.js:11276
+flushSyncCallbackQueueImpl @ react-dom.development.js:11322
+flushSyncCallbackQueue @ react-dom.development.js:11309
+scheduleUpdateOnFiber @ react-dom.development.js:21893
+enqueueForceUpdate @ react-dom.development.js:12504
+push.../../node_modules/react/cjs/react.development.js.Component.forceUpdate @ react.development.js:384
+AnimatedComponent._this._animatedPropsCallback @ createAnimatedComponent.js:103
+update @ AnimatedProps.js:116
+(anonymous) @ AnimatedValue.js:62
+_flush @ AnimatedValue.js:61
+_updateValue @ AnimatedValue.js:287
+(anonymous) @ AnimatedValue.js:247
+onUpdate @ TimingAnimation.js:125
+requestAnimationFrame (async)
+onUpdate @ TimingAnimation.js:128
+requestAnimationFrame (async)
+onUpdate @ TimingAnimation.js:128
+Show 131 more frames
+Debug.js:178 [31944][PlaybackController] Native video element event: waiting
+Debug.js:178 [31952][GapController] CML: [_onBufferReplacementEnded] Ended track 'video'
+Debug.js:178 [31952][ScheduleController][video] Quality change rendered for streamId preroll/2 and type video
+Debug.js:178 [31952][GapController] CML: [_onBufferReplacementEnded] Ended track 'audio'
+Debug.js:178 [31952][ScheduleController][audio] Quality change rendered for streamId preroll/2 and type audio
+Debug.js:178 [31953][PlaybackController] Native video element event: seeked
+Debug.js:178 [31962][PlaybackController] Native video element event: playing
+Debug.js:178 [32031][StreamController] StreamController onEnded, found next stream with id preroll/2. Switching from preroll/1 to preroll/2
+Debug.js:178 [32032][FragmentModel][video] abort requests
+Debug.js:178 [32032][FragmentModel][audio] abort requests
+Debug.js:178 [32032][StreamController] Switch to stream preroll/2. Seektime is NaN, current playback time is 30.148784. Seamless period switch is set to true
+Debug.js:178 [37235][BufferController][video] video: Removing buffer from: 0 to 15.352443000000001
+Debug.js:178 [37236][BufferController][audio] audio: Removing buffer from: 0 to 15.352443000000001
+Debug.js:178 [37238][BufferController][video] onRemoved buffer from: 0 to 15.352443000000001
+Debug.js:178 [37239][BufferController][video] Buffered range: 16.016 - 67.901164, currentTime =  35.355923
+Debug.js:178 [37239][BufferController][audio] onRemoved buffer from: 0 to 15.352443000000001
+Debug.js:178 [37239][BufferController][audio] Buffered range: 15.36 - 30.003999, currentTime =  35.356361
+Debug.js:178 [37239][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  35.356361
+Debug.js:178 [37239][BufferController][audio] Buffered range: 59.871832 - 73.905831, currentTime =  35.356361
+Debug.js:178 [40336][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [40336][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [40353][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [40364][BufferController][video] Buffered range: 16.016 - 73.907164, currentTime =  38.480899
+Debug.js:178 [40364][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [40846][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [40846][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/3.m4s
+Debug.js:178 [40856][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/3.m4s
+Debug.js:178 [40857][BufferController][audio] Buffered range: 15.36 - 30.003999, currentTime =  38.974427
+Debug.js:178 [40857][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  38.974427
+Debug.js:178 [40857][BufferController][audio] Buffered range: 59.871832 - 79.900498, currentTime =  38.974427
+Debug.js:178 [40857][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [46381][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [46381][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [46402][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [46412][BufferController][video] Buffered range: 16.016 - 79.913164, currentTime =  44.529486
+Debug.js:178 [46413][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [46882][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [46882][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/4.m4s
+Debug.js:178 [46891][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/4.m4s
+Debug.js:178 [46892][BufferController][audio] Buffered range: 15.36 - 30.003999, currentTime =  45.010112
+Debug.js:178 [46892][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  45.010112
+Debug.js:178 [46892][BufferController][audio] Buffered range: 59.871832 - 85.895164, currentTime =  45.010112
+Debug.js:178 [46892][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [47234][BufferController][video] video: Removing buffer from: 0 to 25.351084999999998
+Debug.js:178 [47239][BufferController][audio] audio: Removing buffer from: 0 to 25.351084999999998
+Debug.js:178 [47241][BufferController][video] onRemoved buffer from: 0 to 25.351084999999998
+Debug.js:178 [47241][BufferController][video] Buffered range: 26.026 - 79.913164, currentTime =  45.358768
+Debug.js:178 [47241][BufferController][audio] onRemoved buffer from: 0 to 25.351084999999998
+Debug.js:178 [47241][BufferController][audio] Buffered range: 25.365333 - 30.003999, currentTime =  45.359065
+Debug.js:178 [47241][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  45.359065
+Debug.js:178 [47242][BufferController][audio] Buffered range: 59.871832 - 85.895164, currentTime =  45.359065
+Debug.js:178 [51935][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [51936][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [51956][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [51967][BufferController][video] Buffered range: 26.026 - 85.919164, currentTime =  50.084086
+Debug.js:178 [51967][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [52413][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [52414][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/5.m4s
+Debug.js:178 [52422][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/5.m4s
+Debug.js:178 [52423][BufferController][audio] Buffered range: 25.365333 - 30.003999, currentTime =  50.540743
+Debug.js:178 [52423][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  50.540743
+Debug.js:178 [52423][BufferController][audio] Buffered range: 59.871832 - 91.911164, currentTime =  50.540743
+Debug.js:178 [52423][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [57233][BufferController][video] video: Removing buffer from: 0 to 35.350849
+Debug.js:178 [57234][BufferController][audio] audio: Removing buffer from: 0 to 30.003999
+Debug.js:178 [57237][BufferController][video] onRemoved buffer from: 0 to 35.350849
+Debug.js:178 [57237][BufferController][video] Buffered range: 36.069365 - 85.919164, currentTime =  55.355032
+Debug.js:178 [57237][BufferController][audio] onRemoved buffer from: 0 to 30.003999
+Debug.js:178 [57237][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  55.355482
+Debug.js:178 [57237][BufferController][audio] Buffered range: 59.871832 - 91.911164, currentTime =  55.355482
+Debug.js:178 [58002][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [58002][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [58021][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [58032][BufferController][video] Buffered range: 36.069365 - 91.925164, currentTime =  56.149793
+Debug.js:178 [58032][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [58457][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [58458][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/6.m4s
+Debug.js:178 [58469][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/6.m4s
+Debug.js:178 [58470][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  56.587339
+Debug.js:178 [58470][BufferController][audio] Buffered range: 59.871832 - 97.905831, currentTime =  56.587339
+Debug.js:178 [58470][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [61434][PlaybackController] Requesting seek to time: 59.971832 (internal)
+Debug.js:178 [61435][GapController] Jumping gap occuring in period preroll/2 starting at 59.832698 and ending at 59.971832. Jumping by: 0.13913399999999854
+doLog @ Debug.js:178
+warn @ Debug.js:141
+(anonymous) @ GapController.js:377
+setTimeout (async)
+_jumpGap @ GapController.js:375
+(anonymous) @ GapController.js:290
+setInterval (async)
+_startGapHandler @ GapController.js:285
+_onInitialStreamSwitch @ GapController.js:167
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+_initializeForFirstStream @ StreamController.js:361
+(anonymous) @ StreamController.js:255
+Promise.then (async)
+_composeStreams @ StreamController.js:252
+_onTimeSyncCompleted @ StreamController.js:208
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+attemptSync @ TimeSyncController.js:159
+(anonymous) @ StreamController.js:1266
+Promise.then (async)
+_onManifestUpdated @ StreamController.js:1263
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+update @ ManifestUpdater.js:222
+onManifestLoaded @ ManifestUpdater.js:243
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+onXlinkReady @ ManifestLoader.js:90
+(anonymous) @ EventBus.js:123
+trigger @ EventBus.js:123
+onXlinkAllElementsLoaded @ XlinkController.js:186
+resolve @ XlinkController.js:121
+onXlinkAllElementsLoaded @ XlinkController.js:182
+resolve @ XlinkController.js:121
+resolveManifestOnLoad @ XlinkController.js:96
+success @ ManifestLoader.js:214
+onload @ HTTPLoader.js:228
+load (async)
+load @ XHRLoader.js:84
+internalLoad @ HTTPLoader.js:310
+load @ HTTPLoader.js:356
+load @ URLLoader.js:67
+load @ ManifestLoader.js:114
+load @ StreamController.js:189
+_initializePlayback @ MediaPlayer.js:2292
+attachSource @ MediaPlayer.js:1827
+Html5DashJS @ videojs-dash.es.js:900
+handleSource @ videojs-dash.es.js:1058
+_Tech.setSource @ video.es.js:9908
+Html5 @ video.es.js:19966
+loadTech_ @ video.es.js:23188
+src_ @ video.es.js:25628
+(anonymous) @ video.es.js:25533
+setSourceHelper @ video.es.js:10274
+setSourceHelper @ video.es.js:10276
+(anonymous) @ video.es.js:10014
+(anonymous) @ video.es.js:5154
+setTimeout (async)
+setTimeout @ video.es.js:5149
+setSource @ video.es.js:10013
+handleSrc_ @ video.es.js:25523
+src @ video.es.js:25599
+(anonymous) @ VideojsNitroxPlayer.ts:236
+(anonymous) @ VideojsNitroxPlayer.ts:233
+pendingTask @ Async.ts:358
+runPendingTask @ Async.ts:350
+enqueue @ Async.ts:375
+setSource @ VideojsNitroxPlayer.ts:251
+create$ @ WebPlayerModule.ts:96
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+create @ WebPlayerModule.ts:96
+startPlayback$ @ WebPlayerModule.ts:530
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+startPlayback @ WebPlayerModule.ts:530
+setParameters$ @ WebPlayerModule.ts:407
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+setParameters @ WebPlayerModule.ts:407
+(anonymous) @ PlaybackController.ts:788
+Promise.then (async)
+setPlayerModuleParameters$ @ PlaybackController.ts:778
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+setPlayerModuleParameters @ PlaybackController.ts:778
+(anonymous) @ PlaybackController.ts:775
+Promise.then (async)
+setParameters @ PlaybackController.ts:773
+startPlayback$ @ PlaybackController.ts:410
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+startPlayback @ PlaybackController.ts:410
+startPlayback @ BookmarkedPlayer.ts:63
+_callee6$ @ PlaybackController.ts:274
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee6 @ PlaybackController.ts:274
+_callee2$ @ Async.ts:609
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee2 @ Async.ts:579
+_callee3$ @ Async.ts:579
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee3 @ Async.ts:579
+(anonymous) @ Async.ts:579
+(anonymous) @ Async.ts:488
+r @ Async.ts:479
+initialize @ PlaybackController.ts:184
+_callee2$ @ Player.ts:169
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee2 @ Player.ts:169
+_callee2$ @ Async.ts:609
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee2 @ Async.ts:579
+_callee3$ @ Async.ts:579
+tryCatch @ runtime.js:63
+invoke @ runtime.js:294
+(anonymous) @ runtime.js:119
+tryCatch @ runtime.js:63
+invoke @ runtime.js:155
+(anonymous) @ runtime.js:165
+Promise.then (async)
+invoke @ runtime.js:164
+(anonymous) @ runtime.js:190
+callInvokeWithMethodAndArg @ runtime.js:189
+enqueue @ runtime.js:211
+(anonymous) @ runtime.js:119
+exports.async @ runtime.js:237
+_callee3 @ Async.ts:579
+(anonymous) @ Async.ts:579
+(anonymous) @ Async.ts:488
+r @ Async.ts:479
+Player._this.start @ Player.ts:149
+(anonymous) @ MediaPlayer.tsx:227
+(anonymous) @ useFunction.ts:17
+(anonymous) @ MediaPlayer.tsx:248
+(anonymous) @ useFunction.ts:17
+invokePassiveEffectCreate @ react-dom.development.js:23487
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+flushPassiveEffectsImpl @ react-dom.development.js:23574
+unstable_runWithPriority @ scheduler.development.js:468
+runWithPriority$1 @ react-dom.development.js:11276
+flushPassiveEffects @ react-dom.development.js:23447
+performSyncWorkOnRoot @ react-dom.development.js:22269
+(anonymous) @ react-dom.development.js:11327
+unstable_runWithPriority @ scheduler.development.js:468
+runWithPriority$1 @ react-dom.development.js:11276
+flushSyncCallbackQueueImpl @ react-dom.development.js:11322
+flushSyncCallbackQueue @ react-dom.development.js:11309
+scheduleUpdateOnFiber @ react-dom.development.js:21893
+enqueueForceUpdate @ react-dom.development.js:12504
+push.../../node_modules/react/cjs/react.development.js.Component.forceUpdate @ react.development.js:384
+AnimatedComponent._this._animatedPropsCallback @ createAnimatedComponent.js:103
+update @ AnimatedProps.js:116
+(anonymous) @ AnimatedValue.js:62
+_flush @ AnimatedValue.js:61
+_updateValue @ AnimatedValue.js:287
+(anonymous) @ AnimatedValue.js:247
+onUpdate @ TimingAnimation.js:125
+requestAnimationFrame (async)
+onUpdate @ TimingAnimation.js:128
+requestAnimationFrame (async)
+onUpdate @ TimingAnimation.js:128
+Show 131 more frames
+Debug.js:178 [61436][PlaybackController] Native video element event: waiting
+Debug.js:178 [61462][GapController] CML: [_onBufferReplacementEnded] Ended track 'video'
+Debug.js:178 [61462][ScheduleController][video] Quality change rendered for streamId 0 and type video
+Debug.js:178 [61462][GapController] CML: [_onBufferReplacementEnded] Ended track 'audio'
+Debug.js:178 [61462][ScheduleController][audio] Quality change rendered for streamId 0 and type audio
+Debug.js:178 [61462][GapController] CML: [_onBufferReplacementEnded] Ended track 'text'
+Debug.js:178 [61462][ScheduleController][text] Quality change rendered for streamId 0 and type text
+Debug.js:178 [61463][PlaybackController] Native video element event: seeked
+Debug.js:178 [61469][PlaybackController] Native video element event: playing
+Debug.js:178 [61639][StreamController] StreamController onEnded, found next stream with id 0. Switching from preroll/2 to 0
+Debug.js:178 [61639][FragmentModel][video] abort requests
+Debug.js:178 [61640][FragmentModel][audio] abort requests
+Debug.js:178 [61640][StreamController] Switch to stream 0. Seektime is NaN, current playback time is 60.082373. Seamless period switch is set to true
+Debug.js:178 [61655][FragmentModel][video] abort requests
+Debug.js:178 [61655][FragmentModel][audio] abort requests
+Debug.js:178 [61655][Stream] Stream -  Process track changed at current time 60.097735
+Debug.js:178 [61656][StreamProcessor][text] Preparing track switch for type text
+Debug.js:178 [61656][GapController] CML: [_onBufferReplacementStarted] Started track 'text'
+Debug.js:178 [61656][FragmentModel][text] abort requests
+Debug.js:178 [61656][BufferController][text] text: Removing buffer from: 59.893165588 to 62.394165588
+Debug.js:178 [61656][BufferController][text] onRemoved buffer from: 59.893165588 to 62.394165588
+Debug.js:178 [61662][ScheduleController][text] Switch track for text, representation id = 2
+Debug.js:178 [61667][BufferController][text] Append Init fragment text  with representationId: 2  and quality: 0 , data size: 727
+Debug.js:178 [61667][StreamProcessor][text] OnFragmentLoadingCompleted for stream id 0 and media type text - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/webvtt_1/init.mp4
+Debug.js:178 [61667][ScheduleController][text] Appended bytes for text and stream id 0
+Debug.js:178 [61667][ScheduleController][text] [text] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [61668][ScheduleController][text] Media segment needed for text and stream id 0
+Debug.js:178 [61668][DashHandler][text] Index for time 60.099486 is 0
+Debug.js:178 [61668][StreamProcessor][text] Next fragment request url for stream id 0 and media type text is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/webvtt_1/1.m4s
+Debug.js:178 [61671][TextSourceBuffer] VTT box1: vtte
+Debug.js:178 [61671][StreamProcessor][text] OnFragmentLoadingCompleted for stream id 0 and media type text - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/webvtt_1/1.m4s
+Debug.js:178 [61671][BufferController][text] Buffered range: 59.893165588 - 61.894165588, currentTime =  60.114863
+Debug.js:178 [61671][ScheduleController][text] Appended bytes for text and stream id 0
+Debug.js:178 [61672][ScheduleController][text] Media segment needed for text and stream id 0
+Debug.js:178 [61672][StreamProcessor][text] Segment requesting for stream 0 has finished
+Debug.js:178 [61672][Stream] onBufferingCompleted - trigger STREAM_BUFFERING_COMPLETED
+Debug.js:178 [61672][StreamController] Stream with id 0 finished buffering
+Debug.js:178 [61672][Stream] [startPreloading] Preloading next stream with id 1/1
+Debug.js:178 [61673][Stream] No text data.
+Debug.js:178 [61673][Stream] No muxed data.
+Debug.js:178 [61673][Stream] No image data.
+Debug.js:178 [61673][SourceBufferSink][video] Updated append window for video. Set start to 61.795165587999996 and end to 121.931799804
+Debug.js:178 [61673][SourceBufferSink][audio] Updated append window for audio. Set start to 61.795165587999996 and end to 121.931799804
+Debug.js:178 [61674][BufferController][text] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id 0 and type text
+Debug.js:178 [61674][ScheduleController][video] Quality has changed, get init request for representationid = 5
+Debug.js:178 [61675][ScheduleController][audio] Quality has changed, get init request for representationid = 2
+Debug.js:178 [61677][BufferController][video] Append Init fragment video  with representationId: 5  and quality: 5 , data size: 869
+Debug.js:178 [61678][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/init.mp4
+Debug.js:178 [61678][BufferController][audio] Append Init fragment audio  with representationId: 2  and quality: 0 , data size: 822
+Debug.js:178 [61678][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/init.mp4
+Debug.js:178 [61678][BufferController][video] Got enough buffer to start
+Debug.js:178 [61678][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [61678][ScheduleController][video] [video] lastInitializedRepresentationInfo changed to 5
+Debug.js:178 [61678][BufferController][audio] Got enough buffer to start
+Debug.js:178 [61678][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [61678][ScheduleController][audio] [audio] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [61678][ScheduleController][video] Top quality video index has changed from NaN to 5
+Debug.js:178 [61678][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [61678][DashHandler][video] Index for time 61.895165588 is 0
+Debug.js:178 [61678][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [61679][ScheduleController][audio] Top quality audio index has changed from NaN to 0
+Debug.js:178 [61679][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [61679][DashHandler][audio] Index for time 61.895165588 is 0
+Debug.js:178 [61679][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/1.m4s
+Debug.js:178 [61683][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/1.m4s
+Debug.js:178 [61684][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  60.127757
+Debug.js:178 [61684][BufferController][audio] Buffered range: 59.871832 - 97.905831, currentTime =  60.127757
+Debug.js:178 [61684][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [61687][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [61709][BufferController][video] Buffered range: 36.069365 - 91.925164, currentTime =  60.152806
+Debug.js:178 [61709][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [63614][GapController] CML: [_onBufferReplacementEnded] Ended track 'video'
+Debug.js:178 [63614][ScheduleController][video] Quality change rendered for streamId 1/1 and type video
+Debug.js:178 [63614][GapController] CML: [_onBufferReplacementEnded] Ended track 'audio'
+Debug.js:178 [63615][ScheduleController][audio] Quality change rendered for streamId 1/1 and type audio
+Debug.js:178 [63635][StreamController] StreamController onEnded, found next stream with id 1/1. Switching from 0 to 1/1
+Debug.js:178 [63635][FragmentModel][video] abort requests
+Debug.js:178 [63635][FragmentModel][audio] abort requests
+Debug.js:178 [63635][FragmentModel][text] abort requests
+Debug.js:178 [63635][StreamController] Switch to stream 1/1. Seektime is NaN, current playback time is 62.077872. Seamless period switch is set to true
+Debug.js:178 [63730][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [63731][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [63738][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [63745][BufferController][video] Buffered range: 36.069365 - 91.925164, currentTime =  62.188531
+Debug.js:178 [63746][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [63747][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [63747][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [63767][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [63776][BufferController][video] Buffered range: 36.069365 - 91.925164, currentTime =  62.219004
+Debug.js:178 [63776][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [63776][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [63777][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [63784][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [63791][BufferController][video] Buffered range: 36.069365 - 91.925164, currentTime =  62.234676
+Debug.js:178 [63791][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [63792][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [63792][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [63799][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [63805][BufferController][video] Buffered range: 36.069365 - 91.925164, currentTime =  62.248113
+Debug.js:178 [63805][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [63805][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [63805][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/6.m4s
+Debug.js:178 [63828][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/6.m4s
+Debug.js:178 [63834][BufferController][video] Buffered range: 36.069365 - 97.897797, currentTime =  62.278127
+Debug.js:178 [63834][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [64235][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [64235][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/2.m4s
+Debug.js:178 [64238][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/2.m4s
+Debug.js:178 [64239][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  62.682406
+Debug.js:178 [64239][BufferController][audio] Buffered range: 59.871832 - 97.905831, currentTime =  62.682406
+Debug.js:178 [64239][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [64239][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [64239][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/3.m4s
+Debug.js:178 [64242][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/3.m4s
+Debug.js:178 [64242][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  62.68595
+Debug.js:178 [64242][BufferController][audio] Buffered range: 59.871832 - 97.905831, currentTime =  62.68595
+Debug.js:178 [64242][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [64242][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [64242][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/4.m4s
+Debug.js:178 [64245][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/4.m4s
+Debug.js:178 [64246][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  62.68933
+Debug.js:178 [64246][BufferController][audio] Buffered range: 59.871832 - 97.905831, currentTime =  62.68933
+Debug.js:178 [64246][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [64246][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [64246][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/5.m4s
+Debug.js:178 [64249][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/5.m4s
+Debug.js:178 [64249][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  62.692815
+Debug.js:178 [64249][BufferController][audio] Buffered range: 59.871832 - 97.905831, currentTime =  62.692815
+Debug.js:178 [64249][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [64249][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [64249][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/6.m4s
+Debug.js:178 [64252][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/6.m4s
+Debug.js:178 [64252][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  62.69576
+Debug.js:178 [64252][BufferController][audio] Buffered range: 59.871832 - 97.905831, currentTime =  62.69576
+Debug.js:178 [64252][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [64252][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [64252][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/7.m4s
+Debug.js:178 [64255][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/7.m4s
+Debug.js:178 [64255][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  62.699169
+Debug.js:178 [64255][BufferController][audio] Buffered range: 59.871832 - 103.900498, currentTime =  62.699169
+Debug.js:178 [64255][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [69877][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [69877][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/7.m4s
+Debug.js:178 [69900][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/7.m4s
+Debug.js:178 [69910][BufferController][video] Buffered range: 36.069365 - 103.903797, currentTime =  68.354428
+Debug.js:178 [69911][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [70286][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [70287][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/8.m4s
+Debug.js:178 [70296][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/8.m4s
+Debug.js:178 [70297][BufferController][audio] Buffered range: 30.042032 - 59.832698, currentTime =  68.740315
+Debug.js:178 [70297][BufferController][audio] Buffered range: 59.871832 - 109.895164, currentTime =  68.740315
+Debug.js:178 [70297][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [71633][BufferController][video] video: Removing buffer from: 0 to 50.076228
+Debug.js:178 [71633][BufferController][audio] audio: Removing buffer from: 0 to 50.076228
+Debug.js:178 [71635][BufferController][video] onRemoved buffer from: 0 to 50.076228
+Debug.js:178 [71635][BufferController][video] Buffered range: 50.083365 - 103.903797, currentTime =  70.078732
+Debug.js:178 [71636][BufferController][audio] onRemoved buffer from: 0 to 50.076228
+Debug.js:178 [71636][BufferController][audio] Buffered range: 50.095365 - 59.832698, currentTime =  70.079207
+Debug.js:178 [71636][BufferController][audio] Buffered range: 59.871832 - 109.895164, currentTime =  70.079207
+Debug.js:178 [75932][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [75932][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/8.m4s
+Debug.js:178 [75949][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/8.m4s
+Debug.js:178 [75958][BufferController][video] Buffered range: 50.083365 - 109.909797, currentTime =  74.401305
+Debug.js:178 [75958][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [76316][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [76317][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/9.m4s
+Debug.js:178 [76329][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/9.m4s
+Debug.js:178 [76330][BufferController][audio] Buffered range: 50.095365 - 59.832698, currentTime =  74.773433
+Debug.js:178 [76330][BufferController][audio] Buffered range: 59.871832 - 115.911164, currentTime =  74.773433
+Debug.js:178 [76330][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [81632][BufferController][video] video: Removing buffer from: 0 to 60.075935
+Debug.js:178 [81634][BufferController][audio] audio: Removing buffer from: 0 to 59.832698
+Debug.js:178 [81638][BufferController][video] onRemoved buffer from: 0 to 60.075935
+Debug.js:178 [81638][BufferController][video] Buffered range: 61.895165 - 109.909797, currentTime =  80.081893
+Debug.js:178 [81639][BufferController][audio] onRemoved buffer from: 0 to 59.832698
+Debug.js:178 [81639][BufferController][audio] Buffered range: 59.871832 - 115.911164, currentTime =  80.082591
+Debug.js:178 [81994][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [81995][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/9.m4s
+Debug.js:178 [82018][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/9.m4s
+Debug.js:178 [82028][BufferController][video] Buffered range: 61.895165 - 115.915797, currentTime =  80.472093
+Debug.js:178 [82029][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [82356][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [82356][StreamProcessor][audio] Next fragment request url for stream id 1/1 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/10.m4s
+Debug.js:178 [82367][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/1 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_audio/10.m4s
+Debug.js:178 [82368][BufferController][audio] Buffered range: 59.871832 - 121.851164, currentTime =  80.811978
+Debug.js:178 [82368][ScheduleController][audio] Appended bytes for audio and stream id 1/1
+Debug.js:178 [87556][ScheduleController][video] Media segment needed for video and stream id 1/1
+Debug.js:178 [87556][StreamProcessor][video] Next fragment request url for stream id 1/1 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/10.m4s
+Debug.js:178 [87574][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/1 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/mpeg4_1080p_high/10.m4s
+Debug.js:178 [87580][Stream] onBufferingCompleted - One streamProcessor has finished but audio one is not buffering completed
+Debug.js:178 [87580][BufferController][video] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id 1/1 and type video
+Debug.js:178 [87580][BufferController][video] Buffered range: 61.895165 - 121.921797, currentTime =  86.023863
+Debug.js:178 [87580][ScheduleController][video] Appended bytes for video and stream id 1/1
+Debug.js:178 [87910][ScheduleController][audio] Media segment needed for audio and stream id 1/1
+Debug.js:178 [87913][StreamProcessor][audio] Segment requesting for stream 1/1 has finished
+Debug.js:178 [87913][Stream] onBufferingCompleted - trigger STREAM_BUFFERING_COMPLETED
+Debug.js:178 [87914][StreamController] Stream with id 1/1 finished buffering
+Debug.js:178 [87915][Stream] [startPreloading] Preloading next stream with id 1/2
+Debug.js:178 [87920][Stream] No text data.
+Debug.js:178 [87920][Stream] No muxed data.
+Debug.js:178 [87920][Stream] No image data.
+Debug.js:178 [87921][SourceBufferSink][video] Updated append window for video. Set start to 121.82179980400001 and end to 181.95843402
+Debug.js:178 [87921][SourceBufferSink][video] Set MSE timestamp offset to 121.921799804
+Debug.js:178 [87922][SourceBufferSink][audio] Updated append window for audio. Set start to 121.82179980400001 and end to 181.95843402
+Debug.js:178 [87922][SourceBufferSink][audio] Set MSE timestamp offset to 121.921799804
+Debug.js:178 [87922][BufferController][audio] checkIfBufferingCompleted trigger BUFFERING_COMPLETED for stream id 1/1 and type audio
+Debug.js:178 [87923][AbrController] Stream ID: 1/2 [video] switch from 0 to 5/5 (buffer: 35.693) .
+Debug.js:178 [87923][StreamProcessor][video] Preparing quality switch for type video
+Debug.js:178 [87923][FragmentModel][video] abort requests
+Debug.js:178 [87929][ScheduleController][video] Quality has changed, get init request for representationid = 2
+Debug.js:178 [87931][ScheduleController][audio] Quality has changed, get init request for representationid = 5
+Debug.js:178 [87938][BufferController][audio] Append Init fragment audio  with representationId: 5  and quality: 0 , data size: 822
+Debug.js:178 [87939][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/init.mp4
+Debug.js:178 [87939][BufferController][video] Append Init fragment video  with representationId: 2  and quality: 5 , data size: 869
+Debug.js:178 [87939][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/init.mp4
+Debug.js:178 [87940][BufferController][audio] Got enough buffer to start
+Debug.js:178 [87940][ScheduleController][audio] Appended bytes for audio and stream id 1/2
+Debug.js:178 [87940][ScheduleController][audio] [audio] lastInitializedRepresentationInfo changed to 0
+Debug.js:178 [87940][BufferController][video] Got enough buffer to start
+Debug.js:178 [87940][ScheduleController][video] Appended bytes for video and stream id 1/2
+Debug.js:178 [87940][ScheduleController][video] [video] lastInitializedRepresentationInfo changed to 5
+Debug.js:178 [87940][ScheduleController][audio] Top quality audio index has changed from NaN to 0
+Debug.js:178 [87940][ScheduleController][audio] Media segment needed for audio and stream id 1/2
+Debug.js:178 [87941][DashHandler][audio] Index for time 121.921799804 is 0
+Debug.js:178 [87941][StreamProcessor][audio] Next fragment request url for stream id 1/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/1.m4s
+Debug.js:178 [87942][ScheduleController][video] Top quality video index has changed from NaN to 5
+Debug.js:178 [87942][ScheduleController][video] Media segment needed for video and stream id 1/2
+Debug.js:178 [87942][DashHandler][video] Index for time 121.921799804 is 0
+Debug.js:178 [87942][StreamProcessor][video] Next fragment request url for stream id 1/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [87946][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/1.m4s
+Debug.js:178 [87947][BufferController][audio] Buffered range: 59.871832 - 121.851164, currentTime =  86.390457
+Debug.js:178 [87947][BufferController][audio] Buffered range: 121.900466 - 127.937798, currentTime =  86.390457
+Debug.js:178 [87947][ScheduleController][audio] Appended bytes for audio and stream id 1/2
+Debug.js:178 [87954][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/1.m4s
+Debug.js:178 [87970][BufferController][video] Buffered range: 61.895165 - 127.927798, currentTime =  86.413934
+Debug.js:178 [87970][ScheduleController][video] Appended bytes for video and stream id 1/2
+Debug.js:178 [88452][ScheduleController][audio] Media segment needed for audio and stream id 1/2
+Debug.js:178 [88453][StreamProcessor][audio] Next fragment request url for stream id 1/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/2.m4s
+Debug.js:178 [88463][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/2.m4s
+Debug.js:178 [88464][BufferController][audio] Buffered range: 59.871832 - 121.851164, currentTime =  86.907916
+Debug.js:178 [88464][BufferController][audio] Buffered range: 121.900466 - 133.932465, currentTime =  86.907916
+Debug.js:178 [88464][ScheduleController][audio] Appended bytes for audio and stream id 1/2
+Debug.js:178 [97835][BufferController][video] video: Removing buffer from: 0 to 76.278488
+Debug.js:178 [97835][BufferController][audio] audio: Removing buffer from: 0 to 76.278488
+Debug.js:178 [97841][BufferController][video] onRemoved buffer from: 0 to 76.278488
+Debug.js:178 [97841][BufferController][video] Buffered range: 77.911165 - 127.927798, currentTime =  96.285143
+Debug.js:178 [97841][BufferController][audio] onRemoved buffer from: 0 to 76.278488
+Debug.js:178 [97841][BufferController][audio] Buffered range: 76.295165 - 121.851164, currentTime =  96.285614
+Debug.js:178 [97841][BufferController][audio] Buffered range: 121.900466 - 133.932465, currentTime =  96.285614
+Debug.js:178 [100012][ScheduleController][video] Media segment needed for video and stream id 1/2
+Debug.js:178 [100013][StreamProcessor][video] Next fragment request url for stream id 1/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [100038][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/2.m4s
+Debug.js:178 [100047][BufferController][video] Buffered range: 77.911165 - 133.933798, currentTime =  98.490322
+Debug.js:178 [100047][ScheduleController][video] Appended bytes for video and stream id 1/2
+Debug.js:178 [100513][ScheduleController][audio] Media segment needed for audio and stream id 1/2
+Debug.js:178 [100514][StreamProcessor][audio] Next fragment request url for stream id 1/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/3.m4s
+Debug.js:178 [100525][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/3.m4s
+Debug.js:178 [100526][BufferController][audio] Buffered range: 76.295165 - 121.851164, currentTime =  98.969957
+Debug.js:178 [100526][BufferController][audio] Buffered range: 121.900466 - 139.927132, currentTime =  98.969957
+Debug.js:178 [100526][ScheduleController][audio] Appended bytes for audio and stream id 1/2
+Debug.js:178 [106054][ScheduleController][video] Media segment needed for video and stream id 1/2
+Debug.js:178 [106054][StreamProcessor][video] Next fragment request url for stream id 1/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [106077][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/3.m4s
+Debug.js:178 [106087][BufferController][video] Buffered range: 77.911165 - 139.939798, currentTime =  104.530393
+Debug.js:178 [106087][ScheduleController][video] Appended bytes for video and stream id 1/2
+Debug.js:178 [106547][ScheduleController][audio] Media segment needed for audio and stream id 1/2
+Debug.js:178 [106548][StreamProcessor][audio] Next fragment request url for stream id 1/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/4.m4s
+Debug.js:178 [106559][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/4.m4s
+Debug.js:178 [106560][BufferController][audio] Buffered range: 76.295165 - 121.851164, currentTime =  105.003774
+Debug.js:178 [106560][BufferController][audio] Buffered range: 121.900466 - 145.921798, currentTime =  105.003774
+Debug.js:178 [106560][ScheduleController][audio] Appended bytes for audio and stream id 1/2
+Debug.js:178 [107832][BufferController][video] video: Removing buffer from: 0 to 86.276492
+Debug.js:178 [107833][BufferController][audio] audio: Removing buffer from: 0 to 86.276492
+Debug.js:178 [107834][BufferController][video] onRemoved buffer from: 0 to 86.276492
+Debug.js:178 [107834][BufferController][video] Buffered range: 87.921165 - 139.939798, currentTime =  106.278556
+Debug.js:178 [107834][BufferController][audio] onRemoved buffer from: 0 to 86.276492
+Debug.js:178 [107835][BufferController][audio] Buffered range: 86.279165 - 121.851164, currentTime =  106.278784
+Debug.js:178 [107835][BufferController][audio] Buffered range: 121.900466 - 145.921798, currentTime =  106.278784
+Debug.js:178 [112109][ScheduleController][video] Media segment needed for video and stream id 1/2
+Debug.js:178 [112110][StreamProcessor][video] Next fragment request url for stream id 1/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [112132][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/4.m4s
+Debug.js:178 [112143][BufferController][video] Buffered range: 87.921165 - 145.945798, currentTime =  110.58702
+Debug.js:178 [112143][ScheduleController][video] Appended bytes for video and stream id 1/2
+Debug.js:178 [112584][ScheduleController][audio] Media segment needed for audio and stream id 1/2
+Debug.js:178 [112584][StreamProcessor][audio] Next fragment request url for stream id 1/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/5.m4s
+Debug.js:178 [112590][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/5.m4s
+Debug.js:178 [112591][BufferController][audio] Buffered range: 86.279165 - 121.851164, currentTime =  111.035362
+Debug.js:178 [112591][BufferController][audio] Buffered range: 121.900466 - 151.937798, currentTime =  111.035362
+Debug.js:178 [112591][ScheduleController][audio] Appended bytes for audio and stream id 1/2
+Debug.js:178 [117657][ScheduleController][video] Media segment needed for video and stream id 1/2
+Debug.js:178 [117658][StreamProcessor][video] Next fragment request url for stream id 1/2 and media type video is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [117678][StreamProcessor][video] OnFragmentLoadingCompleted for stream id 1/2 and media type video - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_1080p_high/5.m4s
+Debug.js:178 [117688][BufferController][video] Buffered range: 87.921165 - 151.951798, currentTime =  116.132049
+Debug.js:178 [117688][ScheduleController][video] Appended bytes for video and stream id 1/2
+Debug.js:178 [117832][BufferController][video] video: Removing buffer from: 0 to 96.276401
+Debug.js:178 [117833][BufferController][audio] audio: Removing buffer from: 0 to 96.276401
+Debug.js:178 [117834][BufferController][video] onRemoved buffer from: 0 to 96.276401
+Debug.js:178 [117834][BufferController][video] Buffered range: 97.897798 - 151.951798, currentTime =  116.278274
+Debug.js:178 [117834][BufferController][audio] onRemoved buffer from: 0 to 96.276401
+Debug.js:178 [117834][BufferController][audio] Buffered range: 96.284498 - 121.851164, currentTime =  116.278533
+Debug.js:178 [117834][BufferController][audio] Buffered range: 121.900466 - 151.937798, currentTime =  116.278533
+Debug.js:178 [118115][ScheduleController][audio] Media segment needed for audio and stream id 1/2
+Debug.js:178 [118116][StreamProcessor][audio] Next fragment request url for stream id 1/2 and media type audio is https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/6.m4s
+Debug.js:178 [118127][StreamProcessor][audio] OnFragmentLoadingCompleted for stream id 1/2 and media type audio - Url: https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/mpeg4_audio/6.m4s
+Debug.js:178 [118128][BufferController][audio] Buffered range: 96.284498 - 121.851164, currentTime =  116.571677
+Debug.js:178 [118128][BufferController][audio] Buffered range: 121.900466 - 157.932465, currentTime =  116.571677
+Debug.js:178 [118128][ScheduleController][audio] Appended bytes for audio and stream id 1/2
+Debug.js:178 [123357][PlaybackController] Native video element event: waiting
+Debug.js:178 [127832][BufferController][video] video: Removing buffer from: 0 to 101.796066
+Debug.js:178 [127833][BufferController][audio] audio: Removing buffer from: 0 to 101.796066
+Debug.js:178 [127834][BufferController][video] onRemoved buffer from: 0 to 101.796066
+Debug.js:178 [127834][BufferController][video] Buffered range: 101.901798 - 151.951798, currentTime =  121.796066
+Debug.js:178 [127835][BufferController][audio] onRemoved buffer from: 0 to 101.796066
+Debug.js:178 [127835][BufferController][audio] Buffered range: 101.809831 - 121.851164, currentTime =  121.796066
+Debug.js:178 [127835][BufferController][audio] Buffered range: 121.900466 - 157.932465, currentTime =  121.796066

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<MPD profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT9M11.500952602S" minBufferTime="PT2S" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:ns5="urn:scte:scte35:2013:xml" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:ns4="http://www.scte.org/schemas/35/2016" xmlns:ns3="urn:scte:scte35:2014:xml+bin">
+<MPD profiles="urn:mpeg:dash:profile:isoff-live:2011" type="static" mediaPresentationDuration="PT8M41.304118038S" minBufferTime="PT2S" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:ns5="urn:scte:scte35:2013:xml" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:ns4="http://www.scte.org/schemas/35/2016" xmlns:ns3="urn:scte:scte35:2014:xml+bin">
     <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/asset/streams/c761b383-6637-4fee-824b-524a59726a30/dash/</BaseURL>
     <Period id="preroll/1" start="PT0S" duration="PT30.063365936S">
         <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/</BaseURL>
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
-            <Representation id="0" bandwidth="723759" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
+            <Representation id="0" bandwidth="721368" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
                 <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
                         <S t="0" d="180180" r="4"/>
@@ -12,31 +12,7 @@
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
-            <Representation id="2" bandwidth="1991460" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
-                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="3" bandwidth="152816" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
-                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="4" bandwidth="6153576" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
-                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="5" bandwidth="379396" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
+            <Representation id="2" bandwidth="377937" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
                 <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
                         <S t="0" d="180180" r="4"/>
@@ -44,8 +20,32 @@
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
-            <Representation id="6" bandwidth="4564583" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
+            <Representation id="3" bandwidth="4551057" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
                 <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="4" bandwidth="152749" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
+                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="5" bandwidth="6163031" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
+                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="6" bandwidth="1988332" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
+                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
                         <S t="0" d="180180" r="4"/>
                         <S t="900900" d="1001"/>
@@ -66,81 +66,72 @@
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="preroll/2" start="PT30.063365936S" duration="PT1M0.026634216S">
-        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/</BaseURL>
+    <Period id="preroll/2" start="PT30.063365936S" duration="PT29.829799652S">
+        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/</BaseURL>
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
-            <Representation id="0" bandwidth="376836" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
-                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="1" bandwidth="2091017" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
-                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="3" bandwidth="4655885" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
-                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="4" bandwidth="149392" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
-                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="5" bandwidth="6249745" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
+            <Representation id="0" bandwidth="6603520" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
                 <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
-            <Representation id="6" bandwidth="759898" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
+            <Representation id="1" bandwidth="736425" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
                 <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="2" bandwidth="2144020" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
+                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="3" bandwidth="4781404" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
+                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="4" bandwidth="397229" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
+                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="5" bandwidth="158995" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
+                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
         <AdaptationSet id="1" contentType="audio" segmentAlignment="true">
-            <Representation id="2" bandwidth="99928" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
+            <Representation id="6" bandwidth="100597" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
                 <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
                 <SegmentTemplate media="mpeg4_audio/$Number$.m4s" initialization="mpeg4_audio/init.mp4" startNumber="1" timescale="48000">
                     <SegmentTimeline>
                         <S t="0" d="288768"/>
                         <S t="288768" d="287744" r="2"/>
-                        <S t="1152000" d="288768"/>
-                        <S t="1440768" d="287744" r="2"/>
-                        <S t="2304000" d="288768"/>
-                        <S t="2592768" d="285120"/>
+                        <S t="1152000" d="276928"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="0" start="PT1M30.090000152S" duration="PT2.002S">
+    <Period id="0" start="PT59.893165588S" duration="PT2.002S">
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="24000/1001">
             <Representation id="0" bandwidth="11917" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
                 <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="24000">
@@ -216,72 +207,7 @@
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="1/1" start="PT1M32.092000152S" duration="PT30.063365936S">
-        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/</BaseURL>
-        <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
-            <Representation id="0" bandwidth="723759" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
-                <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="2" bandwidth="1991460" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
-                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="3" bandwidth="152816" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
-                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="4" bandwidth="6153576" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
-                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="5" bandwidth="379396" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
-                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="6" bandwidth="4564583" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
-                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="1001"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-        </AdaptationSet>
-        <AdaptationSet id="1" contentType="audio" segmentAlignment="true">
-            <Representation id="1" bandwidth="100262" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
-                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-                <SegmentTemplate media="mpeg4_audio/$Number$.m4s" initialization="mpeg4_audio/init.mp4" startNumber="1" timescale="48000">
-                    <SegmentTimeline>
-                        <S t="0" d="288768"/>
-                        <S t="288768" d="287744" r="2"/>
-                        <S t="1152000" d="288192"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-        </AdaptationSet>
-    </Period>
-    <Period id="1/2" start="PT2M2.155366088S" duration="PT1M0.026634216S">
+    <Period id="1/1" start="PT1M1.895165588S" duration="PT1M0.026634216S">
         <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/</BaseURL>
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
             <Representation id="0" bandwidth="376836" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
@@ -355,7 +281,81 @@
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="1" start="PT3M2.182000304S" duration="PT1M18.036291666S">
+    <Period id="1/2" start="PT2M1.921799804S" duration="PT1M0.026634216S">
+        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/</BaseURL>
+        <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
+            <Representation id="0" bandwidth="152945" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
+                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="1" bandwidth="4703690" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
+                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="2" bandwidth="6433362" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
+                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="3" bandwidth="2170990" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
+                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="4" bandwidth="386224" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
+                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="6" bandwidth="750280" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
+                <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+        <AdaptationSet id="1" contentType="audio" segmentAlignment="true">
+            <Representation id="5" bandwidth="100693" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
+                <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+                <SegmentTemplate media="mpeg4_audio/$Number$.m4s" initialization="mpeg4_audio/init.mp4" startNumber="1" timescale="48000">
+                    <SegmentTimeline>
+                        <S t="0" d="288768"/>
+                        <S t="288768" d="287744" r="2"/>
+                        <S t="1152000" d="288768"/>
+                        <S t="1440768" d="287744" r="2"/>
+                        <S t="2304000" d="288768"/>
+                        <S t="2592768" d="285120"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+        </AdaptationSet>
+    </Period>
+    <Period id="1" start="PT3M1.94843402S" duration="PT1M18.036291666S">
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="24000/1001">
             <Representation id="0" bandwidth="152092" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
                 <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="2" timescale="24000" presentationTimeOffset="48047">
@@ -452,155 +452,137 @@
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="2/1" start="PT4M20.21829197S" duration="PT1M0.026634216S">
-        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/</BaseURL>
+    <Period id="2/1" start="PT4M19.984725686S" duration="PT29.829799652S">
+        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/</BaseURL>
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
-            <Representation id="0" bandwidth="152945" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
-                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="1" bandwidth="4703690" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
-                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="2" bandwidth="6433362" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
+            <Representation id="0" bandwidth="6603520" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
                 <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
-            <Representation id="3" bandwidth="2170990" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
-                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="4" bandwidth="386224" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
-                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="6" bandwidth="750280" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
+            <Representation id="1" bandwidth="736425" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
                 <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="2" bandwidth="2144020" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
+                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="3" bandwidth="4781404" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
+                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="4" bandwidth="397229" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
+                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="5" bandwidth="158995" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
+                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="3"/>
+                        <S t="720720" d="174174"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
         <AdaptationSet id="1" contentType="audio" segmentAlignment="true">
-            <Representation id="5" bandwidth="100693" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
+            <Representation id="6" bandwidth="100597" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
                 <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
                 <SegmentTemplate media="mpeg4_audio/$Number$.m4s" initialization="mpeg4_audio/init.mp4" startNumber="1" timescale="48000">
                     <SegmentTimeline>
                         <S t="0" d="288768"/>
                         <S t="288768" d="287744" r="2"/>
-                        <S t="1152000" d="288768"/>
-                        <S t="1440768" d="287744" r="2"/>
-                        <S t="2304000" d="288768"/>
-                        <S t="2592768" d="285120"/>
+                        <S t="1152000" d="276928"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="2/2" start="PT5M20.244926186S" duration="PT1M0.026634216S">
-        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/</BaseURL>
+    <Period id="2/2" start="PT4M49.814525338S" duration="PT30.063365936S">
+        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2015/dash/</BaseURL>
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
-            <Representation id="0" bandwidth="376836" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
-                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="1" bandwidth="2091017" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
-                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="3" bandwidth="4655885" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
-                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="4" bandwidth="149392" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
-                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="5" bandwidth="6249745" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
-                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="6" bandwidth="759898" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
+            <Representation id="0" bandwidth="721368" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
                 <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
                         <S t="0" d="180180" r="4"/>
-                        <S t="900900" d="179179"/>
-                        <S t="1080079" d="180180" r="3"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="2" bandwidth="377937" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
+                <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="3" bandwidth="4551057" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
+                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="4" bandwidth="152749" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
+                <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="5" bandwidth="6163031" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
+                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="6" bandwidth="1988332" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
+                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="1001"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
         <AdaptationSet id="1" contentType="audio" segmentAlignment="true">
-            <Representation id="2" bandwidth="99928" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
+            <Representation id="1" bandwidth="100262" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
                 <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
                 <SegmentTemplate media="mpeg4_audio/$Number$.m4s" initialization="mpeg4_audio/init.mp4" startNumber="1" timescale="48000">
                     <SegmentTimeline>
                         <S t="0" d="288768"/>
                         <S t="288768" d="287744" r="2"/>
-                        <S t="1152000" d="288768"/>
-                        <S t="1440768" d="287744" r="2"/>
-                        <S t="2304000" d="288768"/>
-                        <S t="2592768" d="285120"/>
+                        <S t="1152000" d="288192"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="2" start="PT6M20.271560402S" duration="PT39.998291666S">
+    <Period id="2" start="PT5M19.877891274S" duration="PT39.998291666S">
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="24000/1001">
             <Representation id="0" bandwidth="159241" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
                 <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="15" timescale="24000" presentationTimeOffset="1920919">
@@ -694,7 +676,7 @@
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="3/1" start="PT7M0.269852068S" duration="PT1M0.026634216S">
+    <Period id="3/1" start="PT5M59.87618294S" duration="PT1M0.026634216S">
         <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2196/dash/</BaseURL>
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
             <Representation id="0" bandwidth="152945" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
@@ -768,72 +750,81 @@
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="3/2" start="PT8M0.296486284S" duration="PT29.829799652S">
-        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2014/dash/</BaseURL>
+    <Period id="3/2" start="PT6M59.902817156S" duration="PT1M0.026634216S">
+        <BaseURL>https://vidaa-adrenalin8-prod-cdn.cloud.seachange.com/ads/SpearAd%20BDS_2137/dash/</BaseURL>
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="30000/1001">
-            <Representation id="0" bandwidth="6603520" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
-                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="3"/>
-                        <S t="720720" d="174174"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="1" bandwidth="736425" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
-                <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="3"/>
-                        <S t="720720" d="174174"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="2" bandwidth="2144020" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
-                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="3"/>
-                        <S t="720720" d="174174"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="3" bandwidth="4781404" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
-                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
-                    <SegmentTimeline>
-                        <S t="0" d="180180" r="3"/>
-                        <S t="720720" d="174174"/>
-                    </SegmentTimeline>
-                </SegmentTemplate>
-            </Representation>
-            <Representation id="4" bandwidth="397229" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
+            <Representation id="0" bandwidth="376836" width="640" height="360" sar="1:1" mimeType="video/mp4" codecs="avc1.42c01e">
                 <SegmentTemplate media="mpeg4_360p_baseline/$Number$.m4s" initialization="mpeg4_360p_baseline/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
-                        <S t="0" d="180180" r="3"/>
-                        <S t="720720" d="174174"/>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
-            <Representation id="5" bandwidth="158995" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
+            <Representation id="1" bandwidth="2091017" width="960" height="540" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401f">
+                <SegmentTemplate media="mpeg4_540p_main/$Number$.m4s" initialization="mpeg4_540p_main/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="3" bandwidth="4655885" width="1280" height="720" sar="1:1" mimeType="video/mp4" codecs="avc1.64001f">
+                <SegmentTemplate media="mpeg4_720p_high/$Number$.m4s" initialization="mpeg4_720p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="4" bandwidth="149392" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
                 <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="1" timescale="30000">
                     <SegmentTimeline>
-                        <S t="0" d="180180" r="3"/>
-                        <S t="720720" d="174174"/>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="5" bandwidth="6249745" width="1920" height="1080" sar="1:1" mimeType="video/mp4" codecs="avc1.640028">
+                <SegmentTemplate media="mpeg4_1080p_high/$Number$.m4s" initialization="mpeg4_1080p_high/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
+                    </SegmentTimeline>
+                </SegmentTemplate>
+            </Representation>
+            <Representation id="6" bandwidth="759898" width="768" height="432" sar="1:1" mimeType="video/mp4" codecs="avc1.4d401e">
+                <SegmentTemplate media="mpeg4_432p_main/$Number$.m4s" initialization="mpeg4_432p_main/init.mp4" startNumber="1" timescale="30000">
+                    <SegmentTimeline>
+                        <S t="0" d="180180" r="4"/>
+                        <S t="900900" d="179179"/>
+                        <S t="1080079" d="180180" r="3"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
         <AdaptationSet id="1" contentType="audio" segmentAlignment="true">
-            <Representation id="6" bandwidth="100597" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
+            <Representation id="2" bandwidth="99928" audioSamplingRate="48000" mimeType="audio/mp4" codecs="mp4a.40.2">
                 <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
                 <SegmentTemplate media="mpeg4_audio/$Number$.m4s" initialization="mpeg4_audio/init.mp4" startNumber="1" timescale="48000">
                     <SegmentTimeline>
                         <S t="0" d="288768"/>
                         <S t="288768" d="287744" r="2"/>
-                        <S t="1152000" d="276928"/>
+                        <S t="1152000" d="288768"/>
+                        <S t="1440768" d="287744" r="2"/>
+                        <S t="2304000" d="288768"/>
+                        <S t="2592768" d="285120"/>
                     </SegmentTimeline>
                 </SegmentTemplate>
             </Representation>
         </AdaptationSet>
     </Period>
-    <Period id="3" start="PT8M30.126285936S" duration="PT41.374666666S">
+    <Period id="3" start="PT7M59.929451372S" duration="PT41.374666666S">
         <AdaptationSet id="0" contentType="video" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true" frameRate="24000/1001">
             <Representation id="0" bandwidth="155145" width="416" height="234" sar="1:1" mimeType="video/mp4" codecs="avc1.42c00d">
                 <SegmentTemplate media="mpeg4_234p_baseline/$Number$.m4s" initialization="mpeg4_234p_baseline/init.mp4" startNumber="22" timescale="24000" presentationTimeOffset="2880878">
